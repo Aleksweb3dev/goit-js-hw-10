@@ -33,6 +33,6 @@ function makePromises(delay, state) {
       } else {
         reject(`❌ Rejected promise in ${delay}ms`);
       }
-    });
-  }, delay);
+    }, delay);
+  });
 }
